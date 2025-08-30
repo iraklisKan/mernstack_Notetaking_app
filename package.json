@@ -1,0 +1,9 @@
+{
+  "name": "mernstack_Notetaking_app",
+  "version": "1.0.0",
+  "description": "Root package for MERN stack notetaking app",
+  "private": true,
+  "scripts": {},
+  "author": "",
+  "license": "MIT"
+}
