@@ -1,9 +1,21 @@
 {
-  "name": "mernstack_Notetaking_app",
+  "name": "mernstack_notetaking_app",
   "version": "1.0.0",
-  "description": "Root package for MERN stack notetaking app",
-  "private": true,
-  "scripts": {},
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iraklisKan/mernstack_Notetaking_app.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/iraklisKan/mernstack_Notetaking_app/issues"
+  },
+  "homepage": "https://github.com/iraklisKan/mernstack_Notetaking_app#readme"
 }
